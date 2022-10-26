@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D46ACE49290680AF004B1015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46ACE48290680AF004B1015 /* AppDelegate.swift */; };
+		D46ACE4B290680AF004B1015 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46ACE4A290680AF004B1015 /* SceneDelegate.swift */; };
+		D46ACE4D290680AF004B1015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46ACE4C290680AF004B1015 /* ViewController.swift */; };
+		D46ACE50290680AF004B1015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46ACE4E290680AF004B1015 /* Main.storyboard */; };
+		D46ACE53290680AF004B1015 /* AlefTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D46ACE51290680AF004B1015 /* AlefTest.xcdatamodeld */; };
+		D46ACE55290680B1004B1015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46ACE54290680B1004B1015 /* Assets.xcassets */; };
+		D46ACE58290680B1004B1015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46ACE56290680B1004B1015 /* LaunchScreen.storyboard */; };
+		D46ACE602906EF3C004B1015 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46ACE5F2906EF3C004B1015 /* PersonModel.swift */; };
+		D46ACE622906F2C3004B1015 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46ACE612906F2C3004B1015 /* PersonTableViewCell.swift */; };
+		D46E748C29099EEE00E3A13C /* DeleteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46E748B29099EEE00E3A13C /* DeleteTableViewCell.swift */; };
+		D46E74912909A6E200E3A13C /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D46E74902909A6E200E3A13C /* IQKeyboardManagerSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D46ACE45290680AF004B1015 /* AlefTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlefTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46ACE48290680AF004B1015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D46ACE4A290680AF004B1015 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D46ACE4C290680AF004B1015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D46ACE4F290680AF004B1015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D46ACE52290680AF004B1015 /* AlefTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlefTest.xcdatamodel; sourceTree = "<group>"; };
+		D46ACE54290680B1004B1015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D46ACE57290680B1004B1015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D46ACE59290680B1004B1015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D46ACE5F2906EF3C004B1015 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		D46ACE612906F2C3004B1015 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		D46E748B29099EEE00E3A13C /* DeleteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D46ACE42290680AF004B1015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46E74912909A6E200E3A13C /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D46ACE3C290680AF004B1015 = {
+			isa = PBXGroup;
+			children = (
+				D46ACE47290680AF004B1015 /* AlefTest */,
+				D46ACE46290680AF004B1015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D46ACE46290680AF004B1015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D46ACE45290680AF004B1015 /* AlefTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D46ACE47290680AF004B1015 /* AlefTest */ = {
+			isa = PBXGroup;
+			children = (
+				D46ACE48290680AF004B1015 /* AppDelegate.swift */,
+				D46ACE4A290680AF004B1015 /* SceneDelegate.swift */,
+				D46ACE4C290680AF004B1015 /* ViewController.swift */,
+				D46ACE4E290680AF004B1015 /* Main.storyboard */,
+				D46E748E29099F1400E3A13C /* Cells */,
+				D46ACE5F2906EF3C004B1015 /* PersonModel.swift */,
+				D46ACE54290680B1004B1015 /* Assets.xcassets */,
+				D46ACE56290680B1004B1015 /* LaunchScreen.storyboard */,
+				D46ACE59290680B1004B1015 /* Info.plist */,
+				D46ACE51290680AF004B1015 /* AlefTest.xcdatamodeld */,
+			);
+			path = AlefTest;
+			sourceTree = "<group>";
+		};
+		D46E748E29099F1400E3A13C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D46ACE612906F2C3004B1015 /* PersonTableViewCell.swift */,
+				D46E748B29099EEE00E3A13C /* DeleteTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D46ACE44290680AF004B1015 /* AlefTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46ACE5C290680B1004B1015 /* Build configuration list for PBXNativeTarget "AlefTest" */;
+			buildPhases = (
+				D46ACE41290680AF004B1015 /* Sources */,
+				D46ACE42290680AF004B1015 /* Frameworks */,
+				D46ACE43290680AF004B1015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlefTest;
+			packageProductDependencies = (
+				D46E74902909A6E200E3A13C /* IQKeyboardManagerSwift */,
+			);
+			productName = AlefTest;
+			productReference = D46ACE45290680AF004B1015 /* AlefTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D46ACE3D290680AF004B1015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D46ACE44290680AF004B1015 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D46ACE40290680AF004B1015 /* Build configuration list for PBXProject "AlefTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D46ACE3C290680AF004B1015;
+			packageReferences = (
+				D46E748F2909A6E200E3A13C /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = D46ACE46290680AF004B1015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D46ACE44290680AF004B1015 /* AlefTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D46ACE43290680AF004B1015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46ACE58290680B1004B1015 /* LaunchScreen.storyboard in Resources */,
+				D46ACE55290680B1004B1015 /* Assets.xcassets in Resources */,
+				D46ACE50290680AF004B1015 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D46ACE41290680AF004B1015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46E748C29099EEE00E3A13C /* DeleteTableViewCell.swift in Sources */,
+				D46ACE622906F2C3004B1015 /* PersonTableViewCell.swift in Sources */,
+				D46ACE4D290680AF004B1015 /* ViewController.swift in Sources */,
+				D46ACE53290680AF004B1015 /* AlefTest.xcdatamodeld in Sources */,
+				D46ACE602906EF3C004B1015 /* PersonModel.swift in Sources */,
+				D46ACE49290680AF004B1015 /* AppDelegate.swift in Sources */,
+				D46ACE4B290680AF004B1015 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D46ACE4E290680AF004B1015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46ACE4F290680AF004B1015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D46ACE56290680B1004B1015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46ACE57290680B1004B1015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D46ACE5A290680B1004B1015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D46ACE5B290680B1004B1015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D46ACE5D290680B1004B1015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4948BP93N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlefTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kerimovrn.AlefTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D46ACE5E290680B1004B1015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4948BP93N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlefTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kerimovrn.AlefTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D46ACE40290680AF004B1015 /* Build configuration list for PBXProject "AlefTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46ACE5A290680B1004B1015 /* Debug */,
+				D46ACE5B290680B1004B1015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46ACE5C290680B1004B1015 /* Build configuration list for PBXNativeTarget "AlefTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46ACE5D290680B1004B1015 /* Debug */,
+				D46ACE5E290680B1004B1015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D46E748F2909A6E200E3A13C /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D46E74902909A6E200E3A13C /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D46E748F2909A6E200E3A13C /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		D46ACE51290680AF004B1015 /* AlefTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D46ACE52290680AF004B1015 /* AlefTest.xcdatamodel */,
+			);
+			currentVersion = D46ACE52290680AF004B1015 /* AlefTest.xcdatamodel */;
+			path = AlefTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D46ACE3D290680AF004B1015 /* Project object */;
+}
